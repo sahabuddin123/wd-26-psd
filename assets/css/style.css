@@ -1,0 +1,283 @@
+/***********************************************
+Project Name: Educafe LMS;
+Project Dirctor: Mr. X;
+Client Name: LEDP;
+Project Start Date: 04-10-2021;
+Project Submission Date: 12-04-2021;
+Total page: 7;
+************************************************
+Home Page Section:
+-------------------
+					1.TopBar
+					2.Header
+					3.Slider
+					4.AboutUS
+					5.Course
+					6.Facts
+					7.Blog
+					8.Testimonial
+					9.Newsletter
+					10.Footer
+**************************************************
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*****************************************************************
+			Base CSS Start
+******************************************************************/
+::placeholder{
+	background: transparent !important;
+	color: #fff !important;
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif !important;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*****************************************************************
+			Base CSS End
+******************************************************************/
+/*****************************************************************
+			Common CSS Start
+******************************************************************/
+.primary-bg{
+	background: #56ab2f !important;
+}
+.primary-color{
+	color: #56ab2f !important;
+}
+.secondary-bg{
+	background: #000022 !important;
+}
+.secondary-color{
+	color: #000022 !important;
+}
+.primary-btn{
+	background: #56ab2f !important;
+	border: 1px solid #56ab2f !important;
+	color: #f1f1f1 !important;
+}
+.primary-btn:hover{
+	background: transparent !important;
+	border: 1px solid #56ab2f !important;
+	color: #000022 !important; 
+}
+.secondary-btn{
+	background: transparent !important;
+	border: 1px solid #56ab2f !important;
+	color: #000022 !important; 
+}
+.secondary-btn:hover{
+	background: #56ab2f !important;
+	border: 1px solid #56ab2f !important;
+	color: #f1f1f1 !important;
+}
+.card-hover:hover{
+	border-color: #56ab2f !important;
+}
+/*****************************************************************
+			Common CSS End
+******************************************************************/
+/*****************************************************************
+			Owl Carousel CSS Start
+******************************************************************/
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+background-color: transparent;
+color: #000022;
+font-size: 45px;
+position: absolute;
+top: 40%;   
+}
+.owl-carousel .owl-nav button.owl-next{
+	right: -5%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	left: -5%;
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover{
+ background-color: transparent;
+ color: #56ab2f !important;
+}
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus{
+ background-color: transparent;
+ color: #56ab2f !important;
+ outline: none;
+}
+/*****************************************************************
+			Owl Carousel CSS End
+******************************************************************/
+/*****************************************************************
+			TopBar CSS Start
+******************************************************************/
+.topbar{
+	height: 49px;
+	line-height: 49px;
+}
+.topbar-left li{
+margin-left: 10px;
+}
+.topbar-left li:first-child{
+	margin: 0;
+}
+.topbar-right li:first-child::after{
+	content: "|";
+	color: #000;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 300;
+}
+
+/*****************************************************************
+			TopBar CSS End
+******************************************************************/
+/*****************************************************************
+			Header CSS Start
+******************************************************************/
+.margin-left-10{
+	margin-left: -10px !important;
+}
+.nav-link{
+	font-weight: bold;
+}
+.active .nav-link{
+	color: #56ab2f !important;
+}
+.nav-link:focus{
+	color: #56ab2f !important;
+}
+/*****************************************************************
+			Header CSS End
+******************************************************************/
+/*****************************************************************
+			Slider CSS Start
+******************************************************************/
+.font-size-12{
+	font-size: 14px !important;
+}
+.position-absolute-slide{
+	position: absolute;
+	top: 45%;
+	left: 55%;
+}
+/*****************************************************************
+			Slider CSS End
+******************************************************************/
+/*****************************************************************
+			AboutUS CSS Start
+******************************************************************/
+.font-size-2{
+	font-size: 2.25rem !important;	
+}
+.background-image{
+	background: url(../img/about/academy.png);
+
+}
+.principle-image{
+	max-height: 310px !important;
+	margin-left: -50px;
+	margin-bottom: -30px;
+	margin-top: 50px;
+}
+
+/*****************************************************************
+			AboutUS CSS End
+******************************************************************/
+/*****************************************************************
+			Course CSS Start
+******************************************************************/
+.line{
+	width: 120px;
+	border-bottom: 2px solid #cfcfcf;
+	position: relative;
+	left: 33%;
+}
+
+/*****************************************************************
+			Course CSS End
+******************************************************************/
+/*****************************************************************
+			Facts CSS Start
+******************************************************************/
+.facts{
+	background: url('../img/facts/facts.png');
+	background-attachment: fixed;
+}
+
+/*****************************************************************
+			Facts CSS End
+******************************************************************/
+/*****************************************************************
+			Blog CSS Start
+******************************************************************/
+
+
+/*****************************************************************
+			Blog CSS End
+******************************************************************/
+/*****************************************************************
+			Testimonial CSS Start
+******************************************************************/
+.testimonial{
+	background: url('../img/testimonial/bg.png');
+}
+.testimonial-img{
+	max-height: 120px;
+	max-width: 120px;
+	margin:0px auto;
+	margin-bottom: -40px;
+}
+.custom-border{
+	border: 40px solid transparent;
+	border-image: url('../img/testimonial/border-image.png') 50% round;
+	border-top: none;
+}
+/*****************************************************************
+			Testimonial CSS End
+******************************************************************/
+/*****************************************************************
+			Newsletter CSS Start
+******************************************************************/
+.custom-input{
+	width: 30%;
+    height: 41px;
+    border: 1px solid #f1f1f1;
+    border-radius: 0px;
+    background: transparent;
+    padding-left: 10px;
+}
+.custom-input:focus{
+	outline: none;
+}
+.cta-outline{
+	outline: 2px solid rgba(255,255,255, .5);
+	margin-top: -3px;
+}
+
+/*****************************************************************
+			Newsletter CSS End
+******************************************************************/
+/*****************************************************************
+			Footer CSS Start
+******************************************************************/
+.footer{
+	background-color: #1e1d1d !important;
+}
+
+/*****************************************************************
+			Footer CSS End
+******************************************************************/
