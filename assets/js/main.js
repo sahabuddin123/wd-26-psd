@@ -7,7 +7,7 @@ $('.testimonial-slide').owlCarousel({
         0:{
             items:1
         },
-        600:{
+        767:{
             items:2
         },
         1000:{
@@ -28,7 +28,7 @@ $('.owl-carousel').owlCarousel({
         0:{
             items:1
         },
-        600:{
+        767:{
             items:2
         },
         1000:{
